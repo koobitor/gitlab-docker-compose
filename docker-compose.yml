@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    container_name: gitlab-demo
+    image: gitlab/gitlab-ce:latest
+    ports:
+      - 80:80
+      - 443:443
+      - 23:22
